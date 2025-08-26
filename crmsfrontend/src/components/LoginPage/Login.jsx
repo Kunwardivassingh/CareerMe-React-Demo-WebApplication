@@ -15,7 +15,7 @@ const LoginSignup = ({ setAuth }) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/login', {
+      const res = await axios.post(`${process.env.REACT_APP_API_URL}/api/login`, {
         email: form.email,
         password: form.password,
       });
@@ -46,7 +46,7 @@ const LoginSignup = ({ setAuth }) => {
       return;
     }
     try {
-      await axios.post('http://localhost:5000/api/signup', {
+      await axios.post(`${process.env.REACT_APP_API_URL}/api/signup`, {
         name: form.name,
         email: form.email,
         password: form.password,
