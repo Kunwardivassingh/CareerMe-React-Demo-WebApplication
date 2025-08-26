@@ -1,0 +1,381 @@
+/* .niki-page {
+  background: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.niki-card {
+  background: #fce4ec;
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.niki-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.niki-header .brain-icon {
+  font-size: 24px;
+  color: #d81b60;
+  margin-right: 8px;
+}
+
+.niki-header h1 {
+  color: #d81b60;
+  font-size: 20px;
+  margin: 0;
+}
+
+.niki-header .mic-icon {
+  font-size: 16px;
+  color: #757575;
+  margin-left: 8px;
+}
+
+.niki-header .subtext {
+  color: #757575;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar .brain-icon {
+  font-size: 40px;
+  color: #d81b60;
+  background: linear-gradient(135deg, #e91e63, #ba2d65);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar .mic-icon {
+  font-size: 20px;
+  color: #757575;
+  margin-left: 10px;
+}
+
+.niki-card h2 {
+  color: #d81b60;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.niki-card p {
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 48%;
+}
+
+.features-list .check-icon {
+  margin-right: 8px;
+  color: #d81b60;
+}
+
+.video-setup {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.video-setup h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.video-setup .camera-icon {
+  font-size: 40px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.video-setup p {
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.allow-camera-btn {
+  background: #d81b60;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.allow-camera-btn .camera-icon {
+  margin-right: 8px;
+}
+
+.allow-camera-btn:hover {
+  background: #c2185b;
+}
+
+.back-link {
+  color: #757575;
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 10px;
+  display: block;
+} */
+
+
+.niki-page {
+  background: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.niki-header {
+      background: #fbf8f8;
+    border-radius: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+    max-width: 900px;
+    width: 100%;
+
+}
+
+.niki-header {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: #fbf8f8;
+    border-radius: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+    max-width: 900px;
+    width: 100%;
+    padding: 16px 20px;
+}
+
+.niki-header .brain-icon {
+    font-size: 24px;
+    color: #d81b60;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+
+
+.niki-header h1 {
+    color: #d81b60;
+    font-size: 25px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: fit-content;
+}
+
+.niki-header .mic-icon {
+    font-size: 24px;
+    color: #757575;
+    margin-left: 8px;
+    flex-shrink: 0;
+}
+
+.niki-header .subtext {
+    color: #757575;
+    font-size: 14px;
+    margin-top: 4px;
+    width: 100%;
+    text-align: left;
+    margin-left: 36px; /* aligns with h1, considering icon width + gap */
+}
+
+.niki-content {
+  background: #fce4ec;
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px; /* space between icons and h2 */
+}
+
+.avatar .brain-icon {
+    font-size: 40px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #e91e63, #ba2d65);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.avatar .mic-icon {
+    font-size: 24px;
+    color: #757575;
+    margin-left: 0;
+    flex-shrink: 0;
+}
+
+.avatar  h2 {
+    color: #d81b60;
+    font-size: 30px;
+    margin:0;
+    font-weight: 800;
+    flex: 1 1 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200;
+    text-align: left;
+}
+
+.niki-content p {
+    color: #757575;
+    font-size: 14px;
+    margin: 10px 0 15px 0;
+    text-align: left;
+    margin-left: 70px; /* aligns with h2, considering icon width + gap */
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 48%;
+}
+
+.features-list .check-icon {
+  margin-right: 8px;
+  color: #d81b60;
+}
+
+.video-setup {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.video-setup h3 {
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.video-setup .camera-icon {
+  font-size: 30px;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.video-setup p {
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.allow-camera-btn {
+  background: #d81b60;
+  color: #ffffff;
+  border: none;
+  padding:auto 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.allow-camera-btn .camera-icon {
+  margin-right: 8px;
+}
+
+.allow-camera-btn:hover {
+  background: #c2185b;
+}
+
+.back-link {
+  color: #757575;
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 10px;
+  display: block;
+}

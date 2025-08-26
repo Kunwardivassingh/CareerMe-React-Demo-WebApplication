@@ -1,0 +1,274 @@
+.job-page {
+  background: #fff5f7;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-header {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.back-link {
+  color: #d81b60;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.company-info {
+  background: #fff;
+  border-radius: 16px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.company-info h1 {
+  color: #d81b60;
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+.company-info p {
+  color: #757575;
+  font-size: 14px;
+  margin: 0;
+}
+
+.glassdoor-rating {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.company-stats {
+  color: #757575;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.download-btn {
+  color: #d81b60;
+  font-size: 14px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.certifications-section {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.section-column {
+  background: #fff;
+  border-radius: 16px;
+  padding: 15px;
+  width: 30%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-column h2 {
+  color: #d81b60;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.section-column ul {
+  list-style: none;
+  padding: 0;
+  color: #757575;
+  font-size: 14px;
+}
+
+.products-section {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.products-section h2 {
+  color: #d81b60;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-image img {
+  width: 150px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.company-videos-section {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.company-videos-section h2 {
+  color: #d81b60;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.video-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-card {
+  text-align: center;
+}
+
+.video-card img {
+  width: 150px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.video-card p {
+  color: #757575;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.watch-link {
+  color: #d81b60;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.awards-section, .work-arrangements-section, .employee-feedback-section, .compensation-section, .job-description-section {
+  width: 100%;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.awards-section h2, .work-arrangements-section h2, .employee-feedback-section h2, .compensation-section h2, .job-description-section h2 {
+  color: #d81b60;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.awards-section ul, .work-arrangements-section ul {
+  list-style: none;
+  padding: 0;
+  color: #757575;
+  font-size: 14px;
+}
+
+.employee-feedback-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-column {
+  width: 48%;
+}
+
+.feedback h3 {
+  color: #d81b60;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.positives ul {
+  list-style: none;
+  padding: 0;
+  color: #4caf50;
+  font-size: 14px;
+}
+
+.improvements ul {
+  list-style: none;
+  padding: 0;
+  color: #ff9800;
+  font-size: 14px;
+}
+
+.compensation-details, .benefits-details {
+  margin-bottom: 10px;
+}
+
+.benefits-details ul {
+  list-style: none;
+  padding: 0;
+  color: #2196f3;
+  font-size: 14px;
+}
+
+.job-meta {
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.job-salary {
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.reporting-to, .job-desc, .work-culture, .perks-benefits, .required-skills {
+  margin-bottom: 10px;
+}
+
+.job-desc h3, .work-culture h3, .perks-benefits h3, .required-skills h3 {
+  color: #d81b60;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.perks-benefits span {
+  color: #4caf50;
+  margin-right: 10px;
+}
+
+.required-skills span {
+  color: #757575;
+  margin-right: 10px;
+}
+
+.start-interview-btn {
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.start-interview-btn:hover {
+  background: #f57c00;
+}

@@ -1,0 +1,117 @@
+.niki-page {
+  background: #fdf0f5;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.niki-header .logo-icon {
+  font-size: 2rem;
+}
+
+.niki-header h2 {
+  color: #d13ca4;
+  margin: 0.5rem 0;
+}
+
+.niki-card {
+  background: white;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.niki-avatar {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.niki-features {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  flex: 1;
+  min-width: 120px;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.pink {
+  background: #ffe6ee;
+}
+
+.blue {
+  background: #e6f0ff;
+}
+
+.purple {
+  background: #f0e6ff;
+}
+
+.action-buttons button {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-start {
+  background: #f04e98;
+  color: white;
+}
+
+.btn-more {
+  background: #fce4ec;
+  color: #f04e98;
+}
+
+.btn-schedule {
+  background: #f3f3ff;
+  color: #5a5ad1;
+}
+
+.expect-box {
+  background: #e6fff2;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.expect-box ul {
+  padding-left: 1.2rem;
+}
+
+.privacy-note {
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  color: gray;
+}
+
+.niki-footer p {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #ffffff;
+    background: linear-gradient(135deg, #72f4c2, #55aef7);
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem 1rem;
+  max-width: 300px;
+   border-radius: 30px;
+  border: none;
+  cursor:auto;
+  font-weight: 600;
+}
+  
